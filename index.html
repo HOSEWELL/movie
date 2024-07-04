@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/26bacd17cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <nav class="navbar">
+            <div>
+                <span>Movie Box.</span>
+            </div>
+            <div class="navlink">
+                <li> <a class="menuItem" href="index.html">Home</a></li>
+                <li><a class="menuItem" href="news.html">Series</a></li>
+            </div>
+            <div class="hambergermenu">
+                <i class="fa-solid fa-bars" onclick="toggleNav()"></i>
+                <a href="javascript:void(0);" class="icon">
+                </a>
+            </div>
+            <div class="navcolumn">                
+                <li><i class="fa-solid fa-bell" id="bell"></i></li>
+            </div>
+        </nav>
+        <br>
+
+        <div class="homepage" id="newslist">
+        </div>
+
+        <br><br>
+        <div class="heading">
+           <span>Latest Movie</span>
+            
+        </div>
+
+        <div class="businessnews" id="latest-news">
+            
+        </div>
+
+        <br>
+        <br>
+        <div class="heading">
+            <span>Must Watch</span>
+             
+         </div>
+
+         <br>
+         <br>
+         <div class="mustread" id="mustread">
+            <div class="mustread-main"></div>
+            <div class="mustread-content"></div>
+         </div>
+         <br>
+         <br>
+         <div class="heading">
+            <span>Reccomendation</span>
+            
+         </div>
+         <br>
+         <br>
+         <div class="recomendation" id="recomendation">
+
+         </div>
+         <br><br>
+
+         <div class="endcontent">
+             <div class="footer">
+                <div class="footerfills">
+                    <span>Craft narrative that ignite inspiration, knowledge and entertainment</span>
+                    <br>
+                    <form id="subscription-form">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <button type="submit" id="button">Subscribe</button>
+                      </form>
+                </div>
+                <div class="footerlist">
+                    <div>
+                        <h3>Company</h3>
+                        <li>About Us</li>
+                        <li>Contact</li>
+                        <li>Career</li>
+                    </div>
+                    <div>
+                        <h3>Resource</h3>
+                        <li>Blog</li>
+                        <li>Newsletter</li>
+                        <li>Event</li>
+                    </div>
+                    <div>
+                        <h3>Social</h3>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                    </div>
+                </div>
+             </div>
+                     <hr class="line">
+             <div class="copyrights">
+                    <span>Copyright<i class="fa-regular fa-copyright"></i>MovieBox-All Rights Reserved</span>
+                    <span>Terms of service</span>
+                    <span>Policy Service</span>
+                    <span>Cookie Policy</span>
+                </div>
+         </div>
+        
+        
+
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
